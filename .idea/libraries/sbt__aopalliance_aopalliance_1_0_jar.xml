@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="sbt: aopalliance:aopalliance:1.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/core/library" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/core/library" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/generated" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/dxf/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/io/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/net/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/pdf/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/serial/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/libraries/svg/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/modes/java/src" />
+      <root url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/tools/MovieMaker/src" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/core/library" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/processing-3.5.4-windows64/processing-3.5.4/core/library" recursive="false" />
+  </library>
+</component>

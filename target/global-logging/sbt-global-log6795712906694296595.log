@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\enthi\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\enthi\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Temurin Java 1.8.0_322)
+[debug]       Load.loadUnit: plugins took 220.5871ms
+[debug]       Load.loadUnit: defsScala took 0.388101ms
+[debug] [Loading] Scanning directory C:\Users\enthi\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\enthi\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.8769 ms
+[debug]           Load.resolveProject(global-plugins) took 57.6224ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\enthi\.sbt\1.0\plugins, plugins: List(<none>))) took 125.6171ms
+[debug] [Loading] Done in C:\Users\enthi\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 150.447299ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.3504ms
+[debug]     Load.loadUnit(file:/C:/Users/enthi/.sbt/1.0/plugins/, ...) took 382.414601ms
+[debug]   Load.apply: load took 611.2018ms
+[debug]   Load.apply: resolveProjects took 6.858ms
+[debug]   Load.apply: finalTransforms took 61.3704ms
+[debug]   Load.apply: config.delegates took 9.0821ms
+[debug]   Load.apply: Def.make(settings)... took 402.1984ms
+[debug]   Load.apply: structureIndex took 104.6304ms
+[debug]   Load.apply: mkStreams took 1.814001ms
+[info] loading global plugins from C:\Users\enthi\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5511.652901ms
+[debug]           Load.loadUnit: plugins took 53.2406ms
+[debug]           Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala\project
+[debug]             Load.loadUnit: mkEval took 17.472601ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.9565 ms
+[info] loading settings for project jdbceasyscala-build from idea.sbt ...
+[debug]               Load.resolveProject(jdbceasyscala-build) took 5.2334ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id jdbceasyscala-build, base: C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala\project, plugins: List(<none>))) took 7.981299ms
+[debug] [Loading] Done in C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala\project, returning: (jdbceasyscala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2881.594999ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.3792ms
+[debug]         Load.loadUnit(file:/C:/Users/enthi/Downloads/BigDataScalaSpark1-main/Week2/JDBCEasyScala/project/, ...) took 2944.884001ms
+[debug]       Load.apply: load took 2947.3385ms
+[debug]       Load.apply: resolveProjects took 0.1402ms
+[debug]       Load.apply: finalTransforms took 9.397899ms
+[debug]       Load.apply: config.delegates took 0.5994ms
+[debug]       Load.apply: Def.make(settings)... took 83.0332ms
+[debug]       Load.apply: structureIndex took 29.0575ms
+[debug]       Load.apply: mkStreams took 0.0044ms
+[info] loading project definition from C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 3744.462899ms
+[debug]     Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala
+[debug]       Load.loadUnit: mkEval took 0.256ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.9814 ms
+[info] loading settings for project jdbceasyscala from build.sbt ...
+[debug]         Load.resolveProject(jdbceasyscala) took 30.5708ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id jdbceasyscala, base: C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala, plugins: List(<none>))) took 33.7297ms
+[debug] [Loading] Done in C:\Users\enthi\Downloads\BigDataScalaSpark1-main\Week2\JDBCEasyScala, returning: (jdbceasyscala)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1734.0175ms
+[debug]     Load.loadUnit: cleanEvalClasses took 15.0587ms
+[debug]   Load.loadUnit(file:/C:/Users/enthi/Downloads/BigDataScalaSpark1-main/Week2/JDBCEasyScala/, ...) took 5494.8964ms
+[debug] Load.apply: load took 5497.602ms
+[debug] Load.apply: resolveProjects took 0.131ms
+[debug] Load.apply: finalTransforms took 24.213101ms
+[debug] Load.apply: config.delegates took 0.3833ms
+[debug] Load.apply: Def.make(settings)... took 91.4836ms
+[debug] Load.apply: structureIndex took 26.63ms
+[debug] Load.apply: mkStreams took 0.010501ms
+[info] set current project to JDBCEasyScala (in build file:/C:/Users/enthi/Downloads/BigDataScalaSpark1-main/Week2/JDBCEasyScala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 50461 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 50461, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to JDBCEasyScala (in build file:/C:/Users/enthi/Downloads/BigDataScalaSpark1-main/Week2/JDBCEasyScala/)
+[debug] > Exec(idea-shell, None, None)
